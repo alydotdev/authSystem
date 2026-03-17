@@ -37,7 +37,8 @@ authSystem/
 │   ├── models/           # MongoDB schemas
 │   ├── routes/           # Express routes
 │   ├── middleware/       # Auth middleware & error handling
-│   └── utils/            # Helper functions (optional)
+    ├── lib/              # Email and DB connection
+    ├── index.js          # Initializes server, connects to database, and loads routes.
 ├── .gitignore
 ├── package.json
 ├── package-lock.json
